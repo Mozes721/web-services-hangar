@@ -41,5 +41,5 @@ export default defineNuxtConfig({
       },
       googleSignIn: {
         clientId: process.env.clientId,
-      }
+      },
 });
