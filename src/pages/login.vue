@@ -1,17 +1,16 @@
 <template>
-  <main class="p-3 bg-color">
-    <template v-if="isMobile">
-      <MobileLoginLayout>
-        <NuxtLayout name="mobile-login"></NuxtLayout>
-      </MobileLoginLayout>
-    </template>
-
-    <template v-else>
-      <DesktopLoginLayout>
-        <NuxtLayout name="desktop-login"></NuxtLayout>
-      </DesktopLoginLayout>
-    </template>
-  </main>
+    <main class="p-3 bg-color">
+        <template v-if="isMobile">
+            <MobileLoginLayout>
+                <NuxtLayout name="mobile-login"></NuxtLayout>
+            </MobileLoginLayout>
+        </template>
+        <template v-else>
+            <DesktopLoginLayout>
+                <NuxtLayout name="desktop-login"></NuxtLayout>
+            </DesktopLoginLayout>
+        </template>
+    </main>
 </template>
 
 <script setup>
